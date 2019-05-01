@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es-MX" >
+	<head>
+		<meta charset="UTF-8">
+		<title>Trees playground</title>
+		<link rel="stylesheet" href="css/index.css" />
+	</head>
+	<body onload="dibujaTarjetas(registro)">
+		<h1>Benchtest WeMan Connect.</h1>
+		<div class="contenedor">
+			<div class="instrucciones">
+				<p>Se nos ha asignado la tarea de saber qué algoritmo de indexado es más rápido, así que nos dieron nombres aleatorios y debemos de evaluar su tiempo de ejecución.</p>
+				<p>El tiempo de ejecución se evalúa en dos partes: una parte es la creación del árbol de índice, y la otra, la ejecución de una búsqueda</p>
+				<p class="subtexto">Es válido escribir el pseudocódigo, y siempre, siempre usa comentarios en tu código para que te apoyes</p>
+			</div>
+			<div class="benchmark">
+				<!-- El siguiente es un formato sugerido de salida, puede replicarse por cada algoritmo implementado -->
+				<h3>Nombre del árbol</h3>
+				<div id="resultado_1">
+					<h4>Creación del índice</h4>
+					<p>Hora de inicio: </p>
+					<p>Hora de fin: <p>
+					<p>Tiempo: </p>
+					<h4>Buscar un registro</h4>
+					<input type="text" id="txtBuscaR1" />
+					<button onclick="">Buscar!</button>
+					<p>Hora de inicio: </p>
+					<p>Hora de fin: <p>
+					<p>Tiempo: </p>
+					<p>Texto encontrado: </p>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script src="js/dataset.js"></script>
+	<script src="js/arboles.js"></script>
+	<script src="js/index.js"></script>
+</html>
